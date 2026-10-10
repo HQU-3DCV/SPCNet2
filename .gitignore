@@ -1,0 +1,37 @@
+# Python缓存
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+*.egg
+
+# IDE配置
+.idea/
+.vscode/
+
+# 实验输出、可视化图片
+tools/Vis_tool/test_vis/vis_result/
+*.png
+*.jpg
+*.jpeg
+
+# 模型权重
+weights/
+*.pth
+*.ckpt
+*.bin
+
+# 临时文件
+*.tmp
+
+# ====== libs下所有子模块编译产物 ======
+libs/*/build/
+libs/*/dist/
+libs/*/*.so
+libs/*/*.o
+libs/*/*.obj
+
+# 环境相关
+env/
+venv/
