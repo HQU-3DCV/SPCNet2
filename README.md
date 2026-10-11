@@ -9,6 +9,24 @@
 - **Adaptive superpoint initialization balances both efficiency and quality.**
 - **Intra-superpoint self-attention compensates the neglect of local context learning.**
 
+
+## Results
+
+### Indoor semantic segmentation
+
+| Model | Benchmark | Num GPUs | Val mIoU |
+|:-----:|:--------:|:--------:|:--------:|
+| SPCNet++ | S3DIS (Area 5) | 2 | 69.9% |
+| SPCNet++ | S3DIS (6-fold) | 2 | 76.6% |
+
+### Outdoor semantic segmentation
+
+| Model | Benchmark | Num GPUs | Val mIoU |
+|:-----:|:--------:|:--------:|:--------:|
+| SPCNet++ | DALES | 2 | 79.9% |
+
+
+<!--
 ## Results
 
 ### Indoor semantic segmentation
@@ -23,7 +41,7 @@
 | Model | Benchmark | Num GPUs | Val mIoU |  Exp Record |
 |:-----:|:--------:|:--------:|:--------:|:----------:|
 | SPCNet++ | DALES | 2 | 79.9% | [link](exp/dales/dales-SPCNet++/test.log) |
-
+-->
 ## Environment
 
 ### Requirements
