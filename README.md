@@ -1,6 +1,6 @@
 # SPCNet++: Superpoint‑based Network for Large‑Scale 3D Point Cloud Semantic Segmentation
 <p align="center">
-<img src="./assets/overview1.png" width="96%">
+<img src="./assets/overview.png" width="96%">
 </p>
 
 ## Highlights
