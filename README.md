@@ -1,4 +1,4 @@
-# SPCNet++: Superpoint‑based Network for Large‑Scale 3D Point Cloud Semantic Segmentation
+# SPCNet++: Efficient Serialized Superpoint Generation and Representation Learning for LiDAR Point Cloud Semantic Segmentation
 <p align="center">
 <img src="./assets/overview.png" width="96%">
 </p>
